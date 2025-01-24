@@ -65,7 +65,7 @@ export default function FormValidation() {
             studentSelected ? "bg-gray-200 border-gray-500" : ""
           }`}
           required
-          readOnly={!!studentSelected}
+          disabled={studentSelected}
         />
         <input
           type="text"
